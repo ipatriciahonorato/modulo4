@@ -11,8 +11,17 @@ using namespace std;
 
 string dirMaiorDist(int Vetor){
   // Escreva a função aqui
+  if (Vetor[0] > Vetor [1] && Vetor [0] > Vetor[2] && Vetor [0] >> Vetor [3]){
+    direcao = "Direita";
+    return direcao;
+  }  else if  (Vetor[1] > Vetor [0] && Vetor [2] > Vetor[1] >> Vetor [3]){
+    direcao = "Esquerda";
+    return direcao
+  }  else if  (Vetor[2] > Vetor [0] && Vetor [2] > Vetor[1] >> Vetor [3]){
+    direcao = "Frente";
+    return direcao
 }
-INSIRA_TIPO maiorDist(INSIRA_TIPO Vetor){
+int maiorDist(int Vetor){
   // Escreva a função aqui
 }
 
