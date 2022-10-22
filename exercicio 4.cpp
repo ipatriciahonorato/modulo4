@@ -3,26 +3,43 @@
 A primeira função deve retornar a direção de maior distância ("Direita", "Esquerda", "Frente", "Tras") e a segunda função deve retornar esta maior distância.
 */
 
+/*
 #include <iostream>
 #include <string>
 
 using namespace std;
 
 
-string dirMaiorDist(int Vetor){
+string dirMaiorDist(int Vetor[]){
   // Escreva a função aqui
-  if (Vetor[0] > Vetor [1] && Vetor [0] > Vetor[2] && Vetor [0] >> Vetor [3]){
+  string direcao;
+  
+  if (Vetor[0] > Vetor [1] && Vetor [0] > Vetor[2] && Vetor [0] > Vetor [3]){
     direcao = "Direita";
     return direcao;
-  }  else if  (Vetor[1] > Vetor [0] && Vetor [2] > Vetor[1] >> Vetor [3]){
+  }  else if  (Vetor[1] > Vetor [0] && Vetor [1] > Vetor[2] && Vetor [1] > Vetor[3]){
     direcao = "Esquerda";
-    return direcao
-  }  else if  (Vetor[2] > Vetor [0] && Vetor [2] > Vetor[1] >> Vetor [3]){
+    return direcao;
+  }  else if  (Vetor[2] > Vetor [0] && Vetor [2] > Vetor[1] && Vetor [2] > Vetor [3]){
     direcao = "Frente";
-    return direcao
+    return direcao;
+  }  else if  (Vetor[3] > Vetor [0] && Vetor [3] > Vetor[1] && Vetor [3]  > Vetor [2]){
+    direcao = "Trás";
+    return direcao;
 }
-int maiorDist(int Vetor){
+  return "None";
+
+}
+
+int maiorDist(int Vetor[]){
   // Escreva a função aqui
+  int maior = -1;
+  for (int i = 0; i <= 3; i++){
+    if (Vetor[i] > maior){
+      maior = Vetor[i];
+    }
+  }
+  return maior;
 }
 
 
@@ -56,3 +73,4 @@ int main(){
   cout << maiorDist(posicoes4) << endl;
   //valor esperado: 55
 }
+*/

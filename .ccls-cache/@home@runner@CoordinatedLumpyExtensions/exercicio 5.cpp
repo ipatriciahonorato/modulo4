@@ -1,11 +1,28 @@
+/*
 // 5 - Faça uma função que pergunta ao usuário se ele deseja continuar o mapeamento e retorna verdadeiro ou falso
-/*
-INSIRA_TIPO continuar(){
-  // Escreva a função aqui
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int continuar(){
+  
+  int numero;
+  cout << "Digite o número 1 para parar o mapeamento.";
+  cin >>  numero;
+  if (numero !=1){
+    
+    return 0;
+    
+  } else {
+    return numero;
+    
+  }
 }
-*/
+
 // Descomente a função main abaixo para testar o exercício 5
-/*
+
 int main(){
   int parar = 0;
   while (parar == 0){
