@@ -6,7 +6,7 @@ Esta função deve ir lendo os 4 sensores até que um comando de pare seja envia
 Para simular os sensores e os comandos de pare, use as funções já construídas nos ítens anteriores e em um looping contínuo até que um pedido de parada seja enviado pelo usuário.
 A função final deve utilizar as funções declaradas acima para ler os sensores e o movimento do robô e no final percorrer o vetor e mostrar o movimento a cada direção na maior distância a cada movimento.
 */
-
+/*
 #include <iostream>
 #include <string>
 
@@ -68,3 +68,4 @@ int main(){
   cout << drive(positions);
   
 }
+*/

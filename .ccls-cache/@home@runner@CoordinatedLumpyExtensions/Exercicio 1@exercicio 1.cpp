@@ -14,7 +14,7 @@ float converteSensor(float valueAdj, float valueMin, float valueMax){
 }
 
 
-int main(){
+//int main(){
   cout << "Teste Ex 1" << endl;
 	cout << converteSensor(100,100,400) << endl;
   //valor esperado: 0

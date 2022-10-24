@@ -3,7 +3,7 @@
 A primeira função deve retornar a direção de maior distância ("Direita", "Esquerda", "Frente", "Tras") e a segunda função deve retornar esta maior distância.
 */
 
-/*
+
 #include <iostream>
 #include <string>
 
@@ -73,4 +73,3 @@ int main(){
   cout << maiorDist(posicoes4) << endl;
   //valor esperado: 55
 }
-*/

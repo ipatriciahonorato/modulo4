@@ -12,17 +12,18 @@ int leComando(){
   int command;
   cin >> command;
   
-  if (command != 0 && command !=1){
-    cout << "Command invalid." << endl;
-    return command;
-  } else{
-    return command;
-  }
+  return command;
 }
 
 int main(){
   cout << "Digite o Comando (0 ou 1):";
 	int cmd = leComando();
-	cout << "Comando Recebido: " << cmd << endl;
+    if (cmd != 0 && cmd !=1){
+    cout << "Command invalid." << endl;
+      
+  } else{
+    cout << "Comando Recebido: " << cmd << endl;
+  }
+  
 }
 */

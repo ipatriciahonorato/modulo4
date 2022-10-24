@@ -20,7 +20,7 @@ int insereVetor(int element, int valueMax, int lastPos, int Vetor[]){
   return 0;
   
 }
-/*
+
 // Descomente a função main abaixo para testar o exercício 3
 int main(){
   int valorMax = 10;
